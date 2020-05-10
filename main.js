@@ -5,4 +5,4 @@ if (name) {
   alert("Przykro mi że nie chcesz podaj swojego imienia :(");
 }
 
-console.log("zajebał ci ktoś kiedyś gonga gówniarzu?????");
+console.log("Poproszę jagodziankę!!!!!");
