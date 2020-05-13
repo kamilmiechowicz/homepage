@@ -1,52 +1,55 @@
 <!DOCTYPE html>
 <html lang="pl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>nauka-html</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
-</head>
-<body>
-    <nav class="navi1">
-        <ul>
-            <li class="navi1"><a href="index.html">Strona Główna</a></li>
-            <li class="navi1"><a href="nauka-html.html">HTML</a></li>
-            <li class="navi1"><a href="nauka-css.html">CSS</a></li>
-            <li class="navi1"><a href="nauka-js.html">Java Script</a></li>
-            <li class="navi1"><a href="git.html">GIT</a></li>
-        </ul>
-    </nav>
-    <main>
-        <header>
-            <h1>HTML</h1>
-        </header>
-        <section>
-            <article>
-                <p><strong>HTML (ang. HyperText Markup Language)</strong> pozwala opisać strukturę informacji zawartych
-                    wewnątrz strony
-                    internetowej, nadając odpowiednie znaczenie semantyczne poszczególnym fragmentom tekstu – formując
-                    hiperłącza, akapity, nagłówki, listy – oraz osadza w tekście dokumentu obiekty plikowe np.
-                    multimedia
-                    bądź elementy baz danych np. interaktywne formularze danych.
-                    Nie jest on językiem programowania, gdyż jest językiem znaczników(Markup Language)</p>
-            </article>
-            <article>
-                <h2>Atrybuty w HTML</h2>
-                <ul>
-                    <li>-atrybuty są "niewidzialne" - chowamy je w znaczniku</li>
-                    <li>-nadają elementom dodatkowe właściwości (href, serc)</li>
-                    <li>-pozwalają na grupowanie elementów (class)</li>
-                    <li>-pozwalają na identyfikowanie elementów (id)</li>
-                    <li>-można je miksować</li>
-                </ul>
-            </article>
-           
-        </section>
+    <link href="../homepage/css/normalize.css" rel="stylesheet" type="text/css"/>
+    <link href="../homepage/css/style.css" rel="stylesheet" type="text/css">
+    
+  </head>
+  <body>
+    <nav class="navigation">
+      <ul>.
+        <li class="navigation__link"><a href="index.html">Strona Główna</a></li>
+        <li class="navigation__link"><a href="nauka-html.html">HTML</a></li>
+        <li class="navigation__link"><a href="nauka-css.html">CSS</a></li>
+        <li class="navigation__link"><a href="nauka-js.html">Java Script</a></li>
+        <li class="navigation__link"><a href="git.html">GIT</a></li>
+      </ul>
+      </nav>
+    <main class="main">
+      <header class="main__header">
+        <h1 class="main__heading main__heading--js">HTML</h1>
+      </header>
+      <section>
+        <article class="content">
+          <p>
+            <strong>HTML (ang. HyperText Markup Language)</strong> pozwala
+            opisać strukturę informacji zawartych wewnątrz strony internetowej,
+            nadając odpowiednie znaczenie semantyczne poszczególnym fragmentom
+            tekstu – formując hiperłącza, akapity, nagłówki, listy – oraz osadza
+            w tekście dokumentu obiekty plikowe np. multimedia bądź elementy baz
+            danych np. interaktywne formularze danych. Nie jest on językiem
+            programowania, gdyż jest językiem znaczników(Markup Language)
+          </p>
+        </article>
+        <article class="content">
+          <h2>Atrybuty w HTML</h2>
+          <ul>
+            <li>-atrybuty są "niewidzialne" - chowamy je w znaczniku</li>
+            <li>-nadają elementom dodatkowe właściwości (href, serc)</li>
+            <li>-pozwalają na grupowanie elementów (class)</li>
+            <li>-pozwalają na identyfikowanie elementów (id)</li>
+            <li>-można je miksować</li>
+          </ul>
+        </article>
+      </section>
     </main>
-    <footer>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid ab nemo corrupti sapiente ea molestiae!
-        Enim earum, hic expedita praesentium suscipit voluptas accusamus repellat dolore nihil magnam labore quis
-        fuga?
+    <footer class="footer_On_All_Pages">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid ab nemo
+      corrupti sapiente ea molestiae! Enim earum, hic expedita praesentium
+      suscipit voluptas accusamus repellat dolore nihil magnam labore quis fuga?
     </footer>
-</body>
+  </body>
 </html>
